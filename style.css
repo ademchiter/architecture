@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Les classes fonctionelles flex box */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+/* alignement verticale */
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: end;
+}
+
+
+
+/* GAP */
+.gap-12 {
+    gap: 12px;
+}
+
+/*  les classes de largeur */
+
+.w-100 {
+    width: 100%;
+}
+
+.w-48{
+    width: 48%;
+}
+
+.w-33{
+    width: 33%;
+}
+
+.w-23{
+    width: 23%;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+header ul {
+    list-style: none;
+}
+
+.bgMarron{
+    background-color: #996830;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}

@@ -183,14 +183,14 @@ header ul {
 
 .btn2 {
     background-color: #262424;
-    color:white;
+    color: white;
     padding: 10px 20px;
 }
 
 .btn-primary {
     font-size: 12px;
     font-weight: 400;
-  font-family: "Outfit", sans-serif; 
+    font-family: "Outfit", sans-serif;
 }
 
 .ph-fill {
@@ -215,63 +215,74 @@ header ul {
     object-fit: cover;
 }
 
-.trait{
+/* classe pour que l'image soit redimensionné pour maintenir son ratio d'affichage tout en
+remplissant toute la boîte de contenu.
+*/
+
+.imgRedimensionne {
+    object-fit: contain;
+}
+
+.trait {
     background-color: #996830;
     height: 2px;
     width: 64px;
 }
 
-.trait2{
+.trait2 {
     background-color: white;
     height: 2px;
     width: 64px;
 }
 
- .paddingFormulaire{
-padding: 10px 150px 10px 10px;
+.paddingFormulaire {
+    padding: 10px 150px 10px 10px;
 
- }
- 
- /* /* police outfit */
- .outfitPolice{
-  font-family: "Outfit", sans-serif;
-
- }
- 
- .plairfayPolice{
-font-family: "Playfair Display", serif;
- }
-
-  
-.epiloguePolice{
- font-family: "Epilogue", sans-serif;
- }
-
- p, h3{
-    font-family: "Outfit", sans-serif;
-      
- }
-
- h1,h2
- {font-family: "Playfair Display", serif;
 }
 
-h2{
+/* /* police outfit */
+.outfitPolice {
+    font-family: "Outfit", sans-serif;
+
+}
+
+.plairfayPolice {
+    font-family: "Playfair Display", serif;
+}
+
+
+.epiloguePolice {
+    font-family: "Epilogue", sans-serif;
+}
+
+p,
+h3 {
+    font-family: "Outfit", sans-serif;
+
+}
+
+h1,
+h2 {
+    font-family: "Playfair Display", serif;
+}
+
+h2 {
     font-weight: lighter;
 }
 
-h3{
-    font-weight:400;
-}
-
-p{
+h3 {
     font-weight: 400;
 }
-h1{
-    font-size: 60px;
-        font-weight: lighter;
+
+p {
+    font-weight: 400;
 }
 
-.btnValider{
-  border: none;
+h1 {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.btnValider {
+    border: none;
 }

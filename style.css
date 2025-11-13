@@ -1,24 +1,13 @@
+/* RESET : permet d'effacer le style par défaut imposé par le navigateur */
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
-body {
-    font-family: "Playfair Display", serif;
-}
+/* CLASSES FONCTIONELLES FLEX BOX */
 
-.section-hero {
-    background-image: url(asset/hero-img.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
-
-
-/* Les classes fonctionelles flex box */
-
+/* rendre flexible un parent*/
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -36,6 +25,7 @@ body {
     justify-content: space-evenly;
 }
 
+/* alignement horizontal */
 .justify-center {
     justify-content: center;
 }
@@ -48,7 +38,8 @@ body {
     justify-content: flex-start;
 }
 
-/* alignement verticale */
+
+/* alignement vertical */
 
 .align-center {
     align-items: center;
@@ -58,17 +49,14 @@ body {
     align-items: end;
 }
 
+/* aligner horizontalement du texte (ou une image qui se comporte comme du texte)*/
 .textCenter {
     text-align: center;
 }
 
 
-/* GAP */
-.gap-12 {
-    gap: 12px;
-}
+/* CLASSES DE DIMENSIONS (classes de largeur)*/
 
-/*  les classes de largeur */
 
 .w-98 {
     width: 98%;
@@ -89,6 +77,29 @@ body {
 
 .w-23 {
     width: 23%;
+}
+
+
+body {
+    font-family: "Playfair Display", serif;
+}
+
+
+/* SECTION HERO - BANNIERE */
+.section-hero {
+    background-image: url(asset/hero-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+
+
+/* GAP */
+.gap-12 {
+    gap: 12px;
 }
 
 /* classes margin / padding pour aérer ma page */

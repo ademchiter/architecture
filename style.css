@@ -144,7 +144,7 @@ body {
 }
 
 
-/* SECTION HERO - BANNIERE */
+/*  DESIGN DE MA SECTION HERO - BANNIERE */
 .section-hero {
     background-image: url(asset/hero-img.png);
     background-repeat: no-repeat;
@@ -154,7 +154,7 @@ body {
 }
 
 
-
+/* supprimer les soulignements de mes liens */
 a {
     text-decoration: none;
     color: black;
@@ -174,6 +174,7 @@ header ul {
     background-color: red;
 }
 
+/* CONTAINER */
 .container {
     max-width: 1000px;
     margin-left: auto;
@@ -187,6 +188,9 @@ header ul {
     color: white;
 }
 
+.txtMarron {
+    color: #996830;
+}
 
 /* STYLE DES BOUTON CONTACT (header) + BOUTON PRENDRE RENDEZ VOUS (BANNER) */
 .btn {
@@ -203,6 +207,7 @@ header ul {
     background-color: #262424;
     color: white;
     padding: 10px 20px;
+    border: none;
 }
 
 .btn-primary {
@@ -210,11 +215,9 @@ header ul {
     font-weight: 400;
     font-family: "Outfit", sans-serif;
 }
-
-.btnValider {
-    border: none;
-}
-
+ 
+/* style des icones d'étoile pleine (tiré du site phosphore) pour le système de notation de
+la section 4 */
 .ph-fill {
     color: #655649;
 }
@@ -224,14 +227,13 @@ header ul {
     font-weight: bold;
 }
 
+
+/* bordure de mes card dans les section 1 et 4 */
 .borderMarron {
     border: solid #996830;
 
 }
 
-.txtMarron {
-    color: #996830;
-}
 
 .imgDressing {
     height: 270px;

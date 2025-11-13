@@ -82,6 +82,11 @@ body {
     width: 33%;
 }
 
+
+.w-30 {
+    width: 30%;
+}
+
 .w-23 {
     width: 23%;
 }
@@ -176,8 +181,16 @@ header ul {
     font-weight: bold;
 }
 
+.btn2 {
+    background-color: #262424;
+    color:white;
+    padding: 10px 20px;
+}
+
 .btn-primary {
-    font-size: 17px;
+    font-size: 12px;
+    font-weight: 400;
+  font-family: "Outfit", sans-serif; 
 }
 
 .ph-fill {
@@ -212,4 +225,53 @@ header ul {
     background-color: white;
     height: 2px;
     width: 64px;
+}
+
+ .paddingFormulaire{
+padding: 10px 150px 10px 10px;
+
+ }
+ 
+ /* /* police outfit */
+ .outfitPolice{
+  font-family: "Outfit", sans-serif;
+
+ }
+ 
+ .plairfayPolice{
+font-family: "Playfair Display", serif;
+ }
+
+  
+.epiloguePolice{
+ font-family: "Epilogue", sans-serif;
+ }
+
+ p, h3{
+    font-family: "Outfit", sans-serif;
+      
+ }
+
+ h1,h2
+ {font-family: "Playfair Display", serif;
+}
+
+h2{
+    font-weight: lighter;
+}
+
+h3{
+    font-weight:400;
+}
+
+p{
+    font-weight: 400;
+}
+h1{
+    font-size: 60px;
+        font-weight: lighter;
+}
+
+.btnValider{
+  border: none;
 }

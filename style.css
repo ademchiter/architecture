@@ -341,3 +341,7 @@ color: blue;
 .section2 p{
     font-family: "Playfair Display", serif;
 }
+
+.section4card p:first-child {
+       font-family: "Playfair Display", serif; 
+}

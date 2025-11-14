@@ -342,6 +342,13 @@ color: blue;
     font-family: "Playfair Display", serif;
 }
 
+/* premier paragraphe des cartes de ma section 4 */
 .section4card p:first-child {
        font-family: "Playfair Display", serif; 
+       font-size:14px;
+}
+
+/* deuxième paragraphe des cartes de ma section 4 */
+.section4card p:nth-child(2) {
+font-size: 11px;
 }

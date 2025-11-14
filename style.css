@@ -329,11 +329,11 @@ h4{
 }
  
 /* style des paragraphes de ma section 1 */
-.section1 p{
+.section1 p, .section3 p{
 font-size: 10px;
 }
 
 /* style des paragraphes de ma section 3 */
-.section3 p{
+{
 color: blue;
 }

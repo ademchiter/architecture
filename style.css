@@ -82,6 +82,10 @@
     width: 40%;
 }
 
+.w-46 {
+    width: 45%;
+}
+
 .w-48 {
     width: 48%;
 }
@@ -376,4 +380,9 @@ background-color: red;
 .footerParagraph p:nth-child(3) {
     font-weight: 500;
     font-size: 12px;
+}
+
+/* paragarphe de ma section hero */
+.hero p{
+font-weight: 300;
 }

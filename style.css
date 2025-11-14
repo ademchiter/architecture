@@ -254,14 +254,14 @@ remplissant toute la boîte de contenu.
 /* trait marron à coté de mes h3 dans section 1 et section 3*/
 .trait {
     background-color: #996830;
-    height: 2px;
+    height: 1px;
     width: 64px;
 }
 
 /* trait blanc à coté de mes h3 dans section 1 et section 2*/
 .trait2 {
     background-color: white;
-    height: 2px;
+    height: 1px;
     width: 64px;
 }
 

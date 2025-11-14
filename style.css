@@ -291,14 +291,13 @@ remplissant toute la boîte de contenu.
     font-family: "Epilogue", sans-serif;
 }
 
-p,
-h3 {
+p, h3 {
     font-family: "Outfit", sans-serif;
 
 }
 
 h1,
-h2 {
+h2,h4 {
     font-family: "Playfair Display", serif;
 }
 
@@ -316,9 +315,25 @@ h3 {
 
 p {
     font-weight: 400;
+    
 }
 
 h1 {
     font-size: 60px;
     font-weight: lighter;
+}
+
+h4{
+    font-size: 13px;
+        font-weight: lighter;
+}
+ 
+/* style des paragraphes de ma section 1 */
+.section1 p{
+font-size: 10px;
+}
+
+/* style des paragraphes de ma section 3 */
+.section3 p{
+color: blue;
 }

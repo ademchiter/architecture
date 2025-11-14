@@ -352,3 +352,28 @@ color: blue;
 .section4card p:nth-child(2) {
 font-size: 11px;
 }
+
+/* troisième paragraphe des cartes de ma section 4 */
+.section4card p:nth-child(4) {
+background-color: red;
+}
+
+
+/* premier paragraphe de mon footer */
+.footerParagraph p:first-child {
+       font-family: "Playfair Display", serif; 
+}
+
+
+/* deuxième paragraphe de mon footer */
+.footerParagraph p:nth-child(2) {
+    font-weight: 200;
+    font-size: 12px;
+}
+
+
+/* troisième paragraphe de mon footer */
+.footerParagraph p:nth-child(3) {
+    font-weight: 500;
+    font-size: 12px;
+}

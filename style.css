@@ -337,3 +337,7 @@ font-size: 10px;
 {
 color: blue;
 }
+
+.section2 p{
+    font-family: "Playfair Display", serif;
+}

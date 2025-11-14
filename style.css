@@ -77,6 +77,7 @@
 .w-33 {
     width: 33%;
 }
+
 .w-40 {
     width: 40%;
 }
@@ -218,7 +219,7 @@ header ul {
     font-weight: 400;
     font-family: "Outfit", sans-serif;
 }
- 
+
 /* style des icones d'étoile pleine (tiré du site phosphore) pour le système de notation de
 la section 4 */
 .ph-fill {
@@ -304,11 +305,13 @@ h2 {
 h2 {
     font-weight: lighter;
     font-size: 29px;
+
 }
 
 h3 {
-    font-weight:500;
+    font-weight: 500;
     font-size: 11px;
+    letter-spacing: 1px; /*pour espacer les caractères de mes h3*/
 }
 
 p {

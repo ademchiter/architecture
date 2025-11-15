@@ -386,3 +386,10 @@ background-color: red;
 .hero p{
 font-weight: 300;
 }
+
+/* bas de page (copyright) */
+.bas p:last-child{
+font-family: "Inter", sans-serif;
+font-weight: 300;
+font-size: 12px;
+}

@@ -397,3 +397,9 @@ font-size: 12px;
 .section3 p{
     font-weight: 300;
 }
+
+.engag p{
+    font-size: 15px;
+        letter-spacing: 1px;  
+        font-weight: 200;
+}

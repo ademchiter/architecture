@@ -207,6 +207,15 @@ header ul {
     padding: 10px 20px;
     display: inline-block;
     font-weight: bold;
+    transition: transform .3s;
+}
+
+
+/* survol DES BOUTON CONTACT (header) + BOUTON PRENDRE RENDEZ VOUS (BANNER) */
+.btn:hover {
+
+    transform: translateY(-3px);
+
 }
 
 /* STYLE DU BOUTON ENVOYER (footer) */
@@ -216,7 +225,16 @@ header ul {
     color: white;
     padding: 10px 20px;
     border: none;
+    transition: transform .3s;
 }
+
+/* survol DU BOUTON ENVOYER (footer) */
+.btn2:hover {
+
+    transform: translateY(-3px);
+
+}
+
 
 .btn-primary {
     font-size: 12px;
@@ -295,13 +313,15 @@ remplissant toute la boîte de contenu.
     font-family: "Epilogue", sans-serif;
 }
 
-p, h3 {
+p,
+h3 {
     font-family: "Outfit", sans-serif;
 
 }
 
 h1,
-h2,h4 {
+h2,
+h4 {
     font-family: "Playfair Display", serif;
 }
 
@@ -314,12 +334,13 @@ h2 {
 h3 {
     font-weight: 500;
     font-size: 9px;
-    letter-spacing: 1px; /*pour espacer les caractères de mes h3*/
+    letter-spacing: 1px;
+    /*pour espacer les caractères de mes h3*/
 }
 
 p {
     font-weight: 400;
-    
+
 }
 
 h1 {
@@ -327,45 +348,46 @@ h1 {
     font-weight: lighter;
 }
 
-h4{
+h4 {
     font-size: 14px;
-        font-weight: lighter;
+    font-weight: lighter;
 }
- 
+
 /* style des paragraphes de ma section 1 */
-.section1 p, .section3 p{
-font-size: 10px;
+.section1 p,
+.section3 p {
+    font-size: 10px;
 }
 
 /* style des paragraphes de ma section 3 */
-{
-color: blue;
+    {
+    color: blue;
 }
 
-.section2 p{
+.section2 p {
     font-family: "Playfair Display", serif;
 }
 
 /* premier paragraphe des cartes de ma section 4 */
 .section4card p:first-child {
-       font-family: "Playfair Display", serif; 
-       font-size:14px;
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
 }
 
 /* deuxième paragraphe des cartes de ma section 4 */
 .section4card p:nth-child(2) {
-font-size: 11px;
+    font-size: 11px;
 }
 
 /* troisième paragraphe des cartes de ma section 4 */
 .section4card p:nth-child(4) {
-background-color: red;
+    background-color: red;
 }
 
 
 /* premier paragraphe de mon footer */
 .footerParagraph p:first-child {
-       font-family: "Playfair Display", serif; 
+    font-family: "Playfair Display", serif;
 }
 
 
@@ -383,23 +405,35 @@ background-color: red;
 }
 
 /* paragarphe de ma section hero */
-.hero p{
-font-weight: 300;
-}
-
-/* bas de page (copyright) */
-.bas p:last-child{
-font-family: "Inter", sans-serif;
-font-weight: 300;
-font-size: 12px;
-}
-
-.section3 p{
+.hero p {
     font-weight: 300;
 }
 
-.engag p{
+/* bas de page (copyright) */
+.bas p:last-child {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.section3 p {
+    font-weight: 300;
+}
+
+.engag p {
     font-size: 15px;
-        letter-spacing: 1px;  
-        font-weight: 200;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+/* li de ma nav*/
+.liNav {
+    transition: transform .3s;
+}
+
+/* survol des li de ma nav */
+.liNav:hover {
+
+    transform: translateY(-3px);
+
 }
